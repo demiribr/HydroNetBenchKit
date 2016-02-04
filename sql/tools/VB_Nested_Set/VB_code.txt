@@ -1,0 +1,101 @@
+
+' -------------------------------------
+' tree table has columns parent and node
+' stack table has columns node, left, right
+' -------------------------------------
+
+Option Compare Database
+
+
+Public Sub adjacency2nestedset()
+
+'set connection and recordset
+Dim conn As New ADODB.Connection
+Set conn = CurrentProject.Connection
+Dim rs As New ADODB.Recordset
+
+
+'declarations
+Dim lft_rgt As Long
+Dim max_lft_rgt As Long
+Dim current_top As Long
+Dim childCount As Long
+Dim SQL As String
+Dim t1 As Double
+Dim t2 As Double
+
+'initialise & calculate rgt of root
+lft_rgt = 2
+rs.Open "SELECT COUNT(*) FROM Tree", conn, adOpenDynamic, adLockPessimistic
+max_lft_rgt = 2 * rs(0)
+rs.Close
+current_top = 1
+t1 = Now()
+
+
+'--clear the stack
+DoCmd.SetWarnings False
+DoCmd.RunSQL "DELETE FROM Stack;"
+DoCmd.SetWarnings True
+
+'-- push the root
+SQL = "INSERT INTO stack (stack_top, node, lft, rgt)"
+SQL = SQL & "SELECT 1, tree.node, 1," & max_lft_rgt & " FROM tree WHERE (((tree.parent) Is Null));"
+DoCmd.SetWarnings False
+DoCmd.RunSQL SQL
+DoCmd.SetWarnings True
+
+'-- delete rows from tree as they are used
+SQL = "DELETE FROM tree WHERE ((tree.parent) IS NULL);"
+DoCmd.SetWarnings False
+DoCmd.RunSQL SQL
+DoCmd.SetWarnings True
+
+Do While lft_rgt <= (max_lft_rgt - 1)
+    SQL = "SELECT count(*) FROM Stack AS S1, Tree AS T1 WHERE S1.node = T1.Parent AND S1.stack_top = " & current_top & ";"
+    rs.Open SQL, conn, adOpenDynamic, adLockPessimistic
+    childCount = rs(0)
+    rs.Close
+    If childCount > 0 Then
+        'push when top has subordinates and set lft value
+            SQL = "INSERT INTO Stack (stack_top, node, lft, rgt)SELECT " & (current_top + 1) & ", MIN(T1.node), " & lft_rgt
+            SQL = SQL & ", NULL FROM Stack AS S1, Tree AS T1 "
+            SQL = SQL & "WHERE S1.node = T1.Parent AND S1.stack_top = " & current_top & ";"
+            DoCmd.SetWarnings False
+            DoCmd.RunSQL SQL
+            DoCmd.SetWarnings True
+            
+            '-- delete rows from tree as they are used
+            SQL = "DELETE FROM Tree "
+            SQL = SQL & "WHERE node = (SELECT node FROM Stack WHERE stack_top = " & (current_top + 1) & ");"
+            DoCmd.SetWarnings False
+            DoCmd.RunSQL SQL
+            DoCmd.SetWarnings True
+            
+            '-- housekeeping of stack pointers and lft_rgt
+            lft_rgt = lft_rgt + 1
+            current_top = current_top + 1
+            
+        Else
+        
+            'pop the stack and set rgt value
+                SQL = "UPDATE Stack SET rgt = " & lft_rgt & ", stack_top = -stack_top "
+                SQL = SQL & "WHERE stack_top = " & current_top & ";"
+                DoCmd.SetWarnings False
+                DoCmd.RunSQL SQL
+                DoCmd.SetWarnings True
+                lft_rgt = lft_rgt + 1
+                current_top = current_top - 1
+    End If
+Loop
+'the stack_top column is not needed in the final answer
+
+'END;
+
+'housekeeping
+Set rs.ActiveConnection = Nothing
+conn.Close
+Set conn = Nothing
+MsgBox ("Completed after " & Now() - t1 & " h:m:s")
+
+End Sub
