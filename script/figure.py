@@ -61,5 +61,6 @@ def plot_op(operation):
 
 if __name__ == "__main__":
 
-    for op in OPS:
-        plot_op(op)
+    plot_op('QPARE')
+    #for op in OPS:
+    #    plot_op(op)

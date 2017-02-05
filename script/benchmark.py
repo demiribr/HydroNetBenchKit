@@ -14,8 +14,7 @@ DATA_FOLDER = '../data/'
 DATA_FILE = 'test-watersheds.txt'
 SQL_FOLDER = '../sql/'
 SQL_TOOLS_FOLDER = '../sql/tools/'
-#DB_NAME = 'dbname=iowa-hydro'
-DB_NAME = 'dbname=workflow'
+DB_NAME = 'dbname=db-opty'
 RESULT_FOLDER = '../data/benchmark/'
 RESULT_FOLDER_ITEMS = '../data/benchmark/result/'
 RESULT_FILE = 'results-query.txt'
@@ -176,9 +175,9 @@ def bench_all(append=False):
     operations = ('ADD', 'DEL', 'MOVE', 'QPARE', 'QCHIL', 'QPATH', 'QTREE')
 
     # runtime sets
-    models = (models[2],)   # only PE
-    operations = operations[3:]     # only queries, not operations
-    #operations = (operations[3],)      # for testing single operation
+    models = (models[1],)   # only NS
+    #operations = operations[3:]     # only queries, not operations
+    operations = (operations[3],)      # for testing single operation
 
     if not append:
         # write header to results file

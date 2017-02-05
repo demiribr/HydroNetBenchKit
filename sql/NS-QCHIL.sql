@@ -1,15 +1,14 @@
 -- nested set model
 -- query for child
 
-SELECT hc.id FROM src_ns hc JOIN src_ns hp
-ON hc.nleft BETWEEN hp.nleft AND hp.nright
-WHERE hp.id = 605797
-AND
-(SELECT count(*) FROM src_ns hn 
-WHERE hc.nleft BETWEEN hn.nleft AND hn.nright 
-	AND hn.nleft BETWEEN hp.nleft AND hp.nright
-) = 2
-ORDER BY hc.id ASC;
+SELECT  DISTINCT ON (MAX(hc.nright) OVER (ORDER BY hc.nleft)) hc.id
+FROM    ns hp
+JOIN    ns hc
+ON      hc.nleft > hp.nleft
+        AND hc.nleft < hp.nright
+WHERE   hp.id = 45668
+ORDER BY
+        MAX(hc.nright) OVER (ORDER BY hc.nleft), hc.nleft;
 
 -- based on
--- http://explainextended.com/2009/09/24/adjacency-list-vs-nested-sets-postgresql/
+-- https://explainextended.com/2010/03/01/postgresql-nested-sets-and-r-tree/
