@@ -9,6 +9,7 @@ __email__       = "robert@szczepanek.pl"
 import psycopg2
 import time
 import os
+import datetime
 
 DATA_FOLDER = '../data/'
 DATA_FILE = 'test-watersheds.txt'
@@ -91,9 +92,9 @@ def run_query(sql, sql_name, node, invasive):
     dbconn = psycopg2.connect(DB_NAME)
     cursor = dbconn.cursor()
 
-    start = time.time()
+    start = datetime.datetime.now()
     cursor.execute(sql)
-    end = time.time()
+    end  = datetime.datetime.now()
     items = cursor.rowcount
 
     if not invasive:
@@ -105,7 +106,10 @@ def run_query(sql, sql_name, node, invasive):
     cursor.close()
     dbconn.close()
 
-    return (end - start, items)
+    q_time = end - start
+    q_time = max(q_time.total_seconds(), 0.001)
+
+    return (q_time, items)
 
 
 def write_bench(sql_name, node, bench_time=None, items=None):
