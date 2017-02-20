@@ -30,7 +30,7 @@ def read_watershed():
 
     # remove header if exist
     try:
-       x = int(data[0])
+        x = int(data[0])
     except ValueError:
         data = data[1:]
 
@@ -118,7 +118,7 @@ def write_bench(sql_name, node, bench_time=None, items=None):
     if bench_time is None:
         row += MISSING + '\n'
     else:
-        row += '{},{:.5f},{}\n'.format(node, bench_time, items)
+        row += '{},{:.3f},{}\n'.format(node, bench_time, items)
     with open('{}{}'.format(RESULT_FOLDER, RESULT_FILE), "a") as res_file:
         res_file.write(row)
 
@@ -198,7 +198,7 @@ def bench_all(append=False):
                 invasive = True
 
             sql_name = '{}-{}'.format(model, operation)
-            sql = read_sql(sql_name + '-param.sql', [0, 0])
+            sql = read_sql(sql_name + '-param.sql', [0, 0, 0])
 
             if sql != MISSING:
                 for node in nodes:
@@ -207,7 +207,7 @@ def bench_all(append=False):
                     elif operation == 'MOVE':
                         node_q = (node[0], node[2])
                     else:
-                        node_q = (node[0],)    # one parameter
+                        node_q = (node[0], node[0], node[0])
 
                     sql = read_sql(sql_name + '-param.sql', node_q)
                     #print sql
