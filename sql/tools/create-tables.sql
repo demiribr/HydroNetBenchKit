@@ -95,12 +95,20 @@ CREATE TABLE src_pe
 (
   id integer NOT NULL,
   path text,
+  apath integer[],
   CONSTRAINT main_key_src_pe PRIMARY KEY (id)
 )
 WITH (
   OIDS=FALSE
 );
 
+-- Index: src_pe_apath_idx
+-- DROP INDEX src_pe_apath_idx;
+
+CREATE INDEX src_pe_apath_idx
+  ON src_pe
+  USING gin
+  (apath);
 
 
 -- Stream network model
