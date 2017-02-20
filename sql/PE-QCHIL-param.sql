@@ -1,6 +1,6 @@
 -- path enumeration model
 -- query for child
 
-SELECT id from src_pe 
-WHERE (string_to_array(path, '/') )[array_length(string_to_array(path, '/'), 1)] :: int = {}
-ORDER BY id ASC; 
+SELECT id FROM src_pe WHERE apath @> 
+(SELECT apath::integer[] || {} FROM src_pe WHERE id={})
+AND array_length(apath,1) = (SELECT array_length(apath,1) + 1 FROM src_pe WHERE id={});

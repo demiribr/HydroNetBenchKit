@@ -1,6 +1,4 @@
 -- path enumeration model
 -- query for parent
 
-SELECT (string_to_array(path, '/') )[array_length(string_to_array(path, '/'), 1)]  
-FROM src_pe WHERE id = 160000; 
-
+SELECT apath[array_length(apath,1)] FROM src_pe WHERE id=1000;
