@@ -40,6 +40,17 @@ def read_watershed():
     return result
 
 
+def rand_watershed(n=1000):
+    """ Select random n watersheds
+    """
+    from random import randint
+
+    max_n = 620173      # number of rows
+    result = [[randint(1, max_n), 0] for p in range(1, n)]
+
+    return result
+
+
 def read_sql(f_name, param=None):
     """ Read SQL query from file
     """
@@ -174,14 +185,15 @@ def bench_all(append=False):
     append - append results to file or create new file
     """
 
-    nodes = read_watershed()
+    #nodes = read_watershed()
+    nodes = rand_watershed()
     models = ('AL', 'NS', 'PE', 'SN')
     operations = ('ADD', 'DEL', 'MOVE', 'QPARE', 'QCHIL', 'QPATH', 'QTREE')
 
     # runtime sets
-    models = (models[1],)   # only NS
-    #operations = operations[3:]     # only queries, not operations
-    operations = (operations[3],)      # for testing single operation
+    # models = ('NS',)   # only NS
+    operations = operations[3:]     # only queries, not operations
+    # operations = ('QCHIL', )        # for testing single operation
 
     if not append:
         # write header to results file
