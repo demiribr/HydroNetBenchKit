@@ -15,11 +15,84 @@
    version="1.1"
    inkscape:version="0.48.4 r9939"
    sodipodi:docname="basin-subdivision.svg"
-   inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/basin-subdivision.png"
+   inkscape:export-filename="/home/robert/Pulpit/db-hydro/figures/basin-subdivision.png"
    inkscape:export-xdpi="300.05084"
    inkscape:export-ydpi="300.05084">
   <defs
-     id="defs4" />
+     id="defs4">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3150"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3146"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3142"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3134"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3126"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3122"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3117"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3112"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3107"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3103"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3099"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3095"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3091"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3122-6"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3122-62"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3122-1"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3122-7"
+       is_visible="true" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect3142-0"
+       is_visible="true" />
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -27,16 +100,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4016667"
+     inkscape:zoom="1.43"
      inkscape:cx="300"
-     inkscape:cy="250"
+     inkscape:cy="222.02797"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="949"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-width="1024"
+     inkscape:window-height="743"
+     inkscape:window-x="1280"
+     inkscape:window-y="151"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -67,29 +140,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      inkscape:groupmode="layer"
-     id="layer4"
-     inkscape:label="sub-tree">
-    <path
-       style="color:#000000;fill:#c3d6ea;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:1.80441976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 682.36057,706.16371 c 0,0 90,0 110,0 20,0 50,-50 50,-70 0,-20 0,-40 -20,-60 -10,-10 -190,-10 -200,0 -20,20 -20,40 -20,60 0,20 30,70 50,70 20,0 30,0 30,0 z"
-       id="path3104"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cssssssc"
-       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-  </g>
-  <g
-     inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="children"
-     style="opacity:1">
+     inkscape:label="polygons"
+     style="display:inline">
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -107,7 +166,7 @@
        width="39.895779"
        height="15.399987"
        x="32.648643"
-       y="-447.43472"
+       y="-423.43472"
        ry="7.5154028"
        rx="6.7597933"
        transform="scale(1,-1)"
@@ -193,7 +252,7 @@
        transform="scale(1,-1)"
        rx="6.7597933"
        ry="7.5154028"
-       y="-422.4751"
+       y="-398.4751"
        x="32.648643"
        height="15.399987"
        width="39.895779"
@@ -202,150 +261,166 @@
   </g>
   <g
      inkscape:groupmode="layer"
-     id="layer5"
-     inkscape:label="path-to-root"
-     style="display:inline">
-    <text
-       xml:space="preserve"
-       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:125%;letter-spacing:0px;word-spacing:0px;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#204a87;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans Bold"
-       x="517.12109"
-       y="572.03296"
-       id="text3949-6"
-       sodipodi:linespacing="125%"
-       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         sodipodi:role="line"
-         id="tspan4216"
-         x="517.12109"
-         y="572.03296">path to root</tspan></text>
+     id="layer6"
+     inkscape:label="river">
+    <path
+       style="fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       d="m 450,80.41958 c -2.08776,4.284183 -5.3992,7.963561 -9.44056,10.489511 -4.23796,2.648834 -9.13944,3.994858 -13.96616,5.2908 -4.82672,1.295942 -9.73273,2.607006 -14.00587,5.198709 -2.36703,1.43563 -4.49018,3.23604 -6.77724,4.79591 -2.28707,1.55987 -4.81147,2.90236 -7.55842,3.24605 -0.81899,0.10247 -1.6559,0.11614 -2.44755,0.34965 -1.25079,0.36894 -2.27754,1.25117 -3.22657,2.14557 -0.94902,0.8944 -1.88802,1.84285 -3.06714,2.39988 -1.51427,0.71536 -3.25523,0.70905 -4.89511,1.04896 -2.22259,0.46069 -4.26447,1.56415 -6.12995,2.85725 -1.86548,1.29309 -3.58499,2.78412 -5.40851,4.13575 -2.04415,1.51516 -4.21748,2.85401 -6.21331,4.43227 -1.99583,1.57826 -3.836,3.43256 -4.9755,5.70759 -1.24646,2.48858 -1.58465,5.34373 -1.51069,8.12604 0.074,2.78231 0.53831,5.53767 0.81139,8.30753 0.41234,4.18249 0.38824,8.39617 0.6993,12.58741 0.38471,5.18349 1.28146,10.31937 2.44755,15.38462 0.43126,1.8733 0.89945,3.73804 1.39861,5.5944 0.396,1.47271 0.82991,2.9783 1.74825,4.19581 1.1451,1.51815 2.92458,2.43193 4.1958,3.84615 1.05605,1.17485 1.72394,2.66098 2.0979,4.1958 0.58209,2.38905 0.48032,4.88998 0.23759,7.33691 -0.24274,2.44694 -0.62323,4.88973 -0.58724,7.34841 0.0805,5.50133 2.2251,10.73091 3.49651,16.08392 0.92639,3.90038 1.39222,7.89506 1.74825,11.88811 0.72543,8.13609 1.00264,16.30728 1.04895,24.47552 0.0204,3.59011 -4.2e-4,7.21415 0.76263,10.72229 0.76305,3.50814 2.39316,6.94618 5.18143,9.20778 1.47799,1.19881 3.22652,2.0281 4.7099,3.22023 0.7417,0.59607 1.41835,1.28756 1.90618,2.10452 0.48783,0.81696 0.77957,1.76716 0.72657,2.71721 -0.046,0.82397 -0.34565,1.62231 -0.34965,2.44755 -0.004,0.90946 0.35804,1.79674 0.90653,2.52221 0.54848,0.72548 1.27463,1.30039 2.04775,1.7794 1.54622,0.958 3.30949,1.56541 4.73803,2.6914 1.97836,1.55937 3.09926,3.92913 4.31579,6.13494 1.69676,3.07655 3.70077,5.98355 5.97254,8.6637"
+       id="path3120"
+       inkscape:path-effect="#path-effect3122"
+       inkscape:original-d="m 450,80.41958 c -0.7967,2.33012 -6.17508,7.22403 -9.44056,10.489511 -2.3449,2.344904 -27.61496,9.775379 -27.97203,10.489509 -0.77851,1.55703 -11.83493,5.54123 -14.33566,8.04196 -0.52826,0.52826 -2.04496,-0.0529 -2.44755,0.34965 -1.60275,1.60275 -4.50209,2.75384 -6.29371,4.54545 -0.8822,0.8822 -4.02891,0.18276 -4.89511,1.04896 -2.95934,2.95934 -9.03263,4.48718 -11.53846,6.993 -3.3919,3.39191 -7.56296,6.51402 -11.18881,10.13986 -1.49488,1.49488 -2.86009,14.27278 -0.6993,16.43357 0.78577,0.78576 -0.13255,11.75556 0.6993,12.58741 2.4279,2.42789 0.88862,12.26674 2.44755,15.38462 0.71444,1.42887 0.40807,4.60386 1.39861,5.5944 0.99067,0.99068 0.75757,3.20513 1.74825,4.19581 1.30249,1.30249 2.60474,2.25509 4.1958,3.84615 1.10576,1.10576 1.13187,3.22977 2.0979,4.1958 2.10872,2.10872 -0.34965,12.40774 -0.34965,14.68532 0,5.27644 0.70273,13.29014 3.49651,16.08392 1.03855,1.03855 0.71283,9.81727 1.74825,11.88811 2.08489,4.16978 -1.99577,21.4308 1.04895,24.47552 1.80818,1.80818 4.72218,18.7082 5.94406,19.93007 2.58891,2.58892 4.41411,5.11342 7.34265,8.04196 0.0482,0.0481 -1.27494,1.52226 -0.34965,2.44755 1.11099,1.11099 6.77756,6.53563 7.69231,6.99301 1.71601,0.85801 3.42033,4.34404 4.31579,6.13494 0.91128,1.82257 5.1567,7.03202 5.97254,8.6637"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cssscsssssssssssssssscsssc" />
+    <path
+       style="fill:none;stroke:#216778;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 423.07692,430.41958 c 2.0887,-2.82495 3.63962,-6.04608 4.54546,-9.44056 0.97405,-3.65009 1.20029,-7.45094 1.74825,-11.18881 1.65713,-11.30407 6.2752,-22.14747 6.64336,-33.56643 0.14764,-4.57911 -0.39765,-9.16556 -1.39861,-13.63637 -0.72961,-3.25883 -1.70268,-6.47418 -2.0979,-9.79021 -0.45769,-3.84012 -0.13595,-7.78048 -1.04895,-11.53846 -1.11879,-4.60503 -3.99807,-8.56512 -6.99301,-12.23776 -4.39377,-5.38799 -9.18094,-10.45511 -14.31081,-15.14767"
+       id="path3124"
+       inkscape:path-effect="#path-effect3126"
+       inkscape:original-d="m 423.07692,430.41958 c 2.77916,-3.92464 1.56491,-6.46001 4.54546,-9.44056 0.92894,-0.92894 0.683,-10.12356 1.74825,-11.18881 4.34166,-4.34166 6.64336,-23.89168 6.64336,-33.56643 0,-3.95649 0.86928,-11.36849 -1.39861,-13.63637 -1.09479,-1.09479 -0.32953,-8.02184 -2.0979,-9.79021 -1.40358,-1.40358 0.10514,-10.38437 -1.04895,-11.53846 -3.15685,-3.15685 -2.96836,-9.86542 -6.99301,-12.23776 -8.43104,-4.96969 -11.76609,-2.02292 -14.31081,-15.14767"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssssssc" />
+    <path
+       style="color:#000000;fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 431.92851,344.98044 c 4.24256,-4.74042 8.87885,-9.12834 13.84545,-13.10373 11.00259,-8.80676 23.80459,-15.77183 32.38846,-26.94918 3.54144,-4.61143 6.24311,-9.79759 9.14788,-14.8344 9.62051,-16.68177 21.65135,-31.97096 35.60258,-45.24495"
+       id="path3132"
+       inkscape:path-effect="#path-effect3134"
+       inkscape:original-d="m 431.92851,344.98044 c 3.29664,-5.6149 11.00863,-7.43009 13.84545,-13.10373 0.94965,-1.89931 27.61885,-22.17957 32.38846,-26.94918 3.88386,-3.88386 5.375,-11.06152 9.14788,-14.8344 13.52527,-13.52527 19.88418,-34.01752 35.60258,-45.24495"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 390.88665,285.14832 c -3.31249,-1.33499 -6.8254,-2.1714 -10.38408,-2.4724 -7.49328,-0.6338 -14.98016,1.09433 -22.49886,1.2362 -10.43955,0.19698 -20.73982,-2.67851 -30.33787,-6.78952 -9.59805,-4.111 -18.61056,-9.44863 -27.76356,-14.47313 -8.59567,-4.71856 -17.33704,-9.17171 -26.20745,-13.35097"
+       id="path3140"
+       inkscape:path-effect="#path-effect3142"
+       inkscape:original-d="m 390.88665,285.14832 c -0.85602,-1.03767 -5.78643,-2.4724 -10.38408,-2.4724 -5.99747,0 -16.99528,3.98799 -22.49886,1.2362 -10.62368,-5.31184 -46.47243,-18.3554 -58.10143,-21.26265 -8.51414,-2.12853 -16.97468,-11.04277 -26.20745,-13.35097"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 375.805,221.60761 c 23.29606,-16.83858 49.52032,-29.6145 77.13892,-37.5805 15.72738,-4.53623 31.90147,-7.52222 48.21183,-8.90065"
+       id="path3144"
+       inkscape:path-effect="#path-effect3146"
+       inkscape:original-d="m 375.805,221.60761 c 18.77122,-4.52324 65.17312,-25.61469 77.13892,-37.5805 3.95886,-3.95885 41.45049,-6.64687 48.21183,-8.90065"
+       inkscape:connector-curvature="0" />
+    <path
+       style="color:#000000;fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 360.47611,141.50181 c -2.09268,-3.03848 -4.49961,-5.8604 -7.16996,-8.40617 -4.65064,-4.43367 -10.09562,-8.03242 -14.33993,-12.85649 -4.11661,-4.67892 -6.94898,-10.33866 -9.39512,-16.0706 -4.80084,-11.2496 -8.29316,-23.05698 -10.38409,-35.108103"
+       id="path3148"
+       inkscape:path-effect="#path-effect3150"
+       inkscape:original-d="m 360.47611,141.50181 c -2.97707,-2.89295 -4.5989,-5.83511 -7.16996,-8.40617 -4.2978,-4.29779 -9.70836,-8.22492 -14.33993,-12.85649 -3.62045,-3.62044 -5.74134,-12.41682 -9.39512,-16.0706 -5.52442,-5.524422 -2.93577,-29.521863 -10.38409,-35.108103"
+       inkscape:connector-curvature="0" />
   </g>
   <g
-     inkscape:label="Layer 1"
+     inkscape:label="tree"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-552.36215)">
+     transform="translate(0,-552.36215)"
+     style="display:inline">
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:1.99057591;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:1.99057519;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3008"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1.0047347,0,0,-1.0047347,267.23291,883.67731)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
+       transform="matrix(1.0047347,0,0,-1.0047347,273.17697,907.80318)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       transform="matrix(1,0,0,-1,281.99207,947.59193)"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       transform="matrix(1,0,0,-1,298.07599,971.0185)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        sodipodi:ry="6.16083"
        sodipodi:rx="6.16083"
        sodipodi:cy="109.27367"
        sodipodi:cx="108.62516"
        id="path3010"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:type="arc"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       transform="matrix(1,0,0,-1,399.24068,916.40953)"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       transform="matrix(1,0,0,-1,370.2197,949.62632)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        sodipodi:ry="6.16083"
        sodipodi:rx="6.16083"
        sodipodi:cy="109.27367"
        sodipodi:cx="108.62516"
        id="path3014"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:type="arc"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3016"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1,0,0,-1,324.71837,1006.5962)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
+       transform="matrix(1,0,0,-1,321.47362,1069.827)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       id="path3020"
-       sodipodi:cx="108.62516"
-       sodipodi:cy="109.27367"
-       sodipodi:rx="6.16083"
-       sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1,0,0,-1,314.46174,1092.4429)"
-       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300" />
-    <path
-       transform="matrix(1,0,0,-1,331.8872,854.10026)"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       transform="matrix(1,0,0,-1,342.02706,855.84851)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        sodipodi:ry="6.16083"
        sodipodi:rx="6.16083"
        sodipodi:cy="109.27367"
        sodipodi:cx="108.62516"
        id="path3022"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:type="arc"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3024"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1,0,0,-1,251.78233,805.95097)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
+       transform="matrix(1,0,0,-1,255.73817,834.63083)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path3028"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1,0,0,-1,210.23347,734.2457)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
+       transform="matrix(1,0,0,-1,213.94207,762.67831)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       transform="matrix(1,0,0,-1,354.4358,721.92404)"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       transform="matrix(1,0,0,-1,308.63161,745.35061)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        sodipodi:ry="6.16083"
        sodipodi:rx="6.16083"
        sodipodi:cy="109.27367"
        sodipodi:cx="108.62516"
        id="path3030"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:type="arc"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 429.72993,892.33222 -35.4991,-49.02364"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 428.67885,954.55694 408.12108,867.74123"
        id="path3036"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -358,8 +433,8 @@
        inkscape:export-ydpi="300"
        sodipodi:nodetypes="cc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 437.26799,892.57316 66.67339,-80.68793"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 432.4147,954.84261 476.52894,846.06338"
        id="path3038"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -372,8 +447,8 @@
        inkscape:export-ydpi="300"
        sodipodi:nodetypes="ccc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 375.11871,767.82329 361.65525,702.71171"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 380.8312,792.00147 365.84157,731.3395"
        id="path3042"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -386,8 +461,8 @@
        inkscape:export-ydpi="300"
        sodipodi:nodetypes="cc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 458.29346,616.55281 -93.11847,76.22206"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 414.11606,641.37823 -46.61202,78.67765"
        id="path3048"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -400,8 +475,8 @@
        inkscape:export-ydpi="300"
        sodipodi:nodetypes="cc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 382.01207,771.33111 52.88718,-23.9614"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 387.26227,794.28934 445.72969,750.2801"
        id="path3050"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -414,8 +489,8 @@
        inkscape:export-ydpi="300"
        sodipodi:nodetypes="cc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 357.31822,691.34582 321.9479,630.30352"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 361.2683,720.02903 325.66226,658.73278"
        id="path3845"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -428,8 +503,8 @@
        inkscape:connection-start="#path3024"
        sodipodi:nodetypes="cc" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 389.287,832.30141 377.7089,779.9316"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 404.49901,855.98924 -19.97,-52.19426"
        id="path3864"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -442,20 +517,20 @@
        inkscape:export-ydpi="300" />
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path4107"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
-       transform="matrix(1,0,0,-1,-56.028626,1026.4917)"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
+       transform="matrix(1,0,0,-1,-56.028626,916.4917)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
        transform="matrix(1,0,0,-1,650.59663,769.84881)"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        sodipodi:ry="6.16083"
        sodipodi:rx="6.16083"
        sodipodi:cy="109.27367"
@@ -468,20 +543,20 @@
        inkscape:export-ydpi="300" />
     <path
        sodipodi:type="arc"
-       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       style="color:#000000;fill:#ffd5d5;fill-opacity:1;fill-rule:nonzero;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="path4229"
        sodipodi:cx="108.62516"
        sodipodi:cy="109.27367"
        sodipodi:rx="6.16083"
        sodipodi:ry="6.16083"
-       d="m 114.78599,109.27367 a 6.16083,6.16083 0 1 1 -12.32166,0 6.16083,6.16083 0 1 1 12.32166,0 z"
+       d="m 114.78599,109.27367 c 0,3.40253 -2.7583,6.16083 -6.16083,6.16083 -3.40253,0 -6.16083,-2.7583 -6.16083,-6.16083 0,-3.40254 2.7583,-6.16083 6.16083,-6.16083 3.40253,0 6.16083,2.75829 6.16083,6.16083 z"
        transform="matrix(1,0,0,-1,197.19233,928.8316)"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300" />
     <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="M 384.60057,836.98719 311.83415,820.88901"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="M 401.0158,859.36737 311.50284,821.9354"
        id="path4350"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
@@ -489,20 +564,6 @@
        inkscape:connection-start-point="d4"
        inkscape:connection-end="#path4229"
        inkscape:connection-end-point="d4"
-       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"
-       sodipodi:nodetypes="cc" />
-    <path
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 423.81785,977.05131 8.79473,-73.61086"
-       id="path3072"
-       inkscape:connector-type="polyline"
-       inkscape:connector-curvature="0"
-       inkscape:connection-end-point="d4"
-       inkscape:connection-end="#path3016"
-       inkscape:connection-start-point="d4"
-       inkscape:connection-start="#path3020"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"
@@ -523,14 +584,24 @@
        inkscape:connector-curvature="0"
        inkscape:connector-type="polyline"
        id="path3984"
-       d="m 72.683277,892.25837 -40.173485,0"
-       style="color:#000000;fill:none;stroke:#204a87;stroke-width:1.99999976;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 72.683277,918.25837 -40.173485,0"
+       style="color:#000000;fill:none;stroke:#216778;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        sodipodi:nodetypes="cc" />
     <path
        sodipodi:nodetypes="cc"
        style="color:#000000;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:7.99999997, 3.99999999;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-       d="m 72.201655,942.17762 -39.210242,0"
+       d="m 72.201655,992.1776 -39.210242,0"
        id="path4033"
+       inkscape:connector-type="polyline"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300" />
+    <path
+       sodipodi:nodetypes="cc"
+       style="color:#000000;fill:none;stroke:#aa0000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       d="m 72.683277,828.25837 -40.173485,0"
+       id="path4115"
        inkscape:connector-type="polyline"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
@@ -540,7 +611,20 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="text">
+     inkscape:label="text"
+     style="display:inline">
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="84.216026"
+       y="396.30441"
+       id="text4088"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3097">subwatershed</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -673,14 +757,14 @@
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text3938"
-       y="170.46274"
-       x="481.07736"
+       y="164.46274"
+       x="483.07736"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan3974"
-         x="481.07736"
-         y="170.46274">6</tspan></text>
+         x="483.07736"
+         y="164.46274">6</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -701,14 +785,14 @@
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text3950"
-       y="108.85445"
-       x="307.2771"
+       y="88.854446"
+       x="299.2771"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan3978"
-         x="307.2771"
-         y="108.85445">8</tspan></text>
+         x="299.2771"
+         y="88.854446">8</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -729,14 +813,14 @@
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text3958"
-       y="249.58075"
-       x="389.63766"
+       y="253.58075"
+       x="397.63766"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan3972"
-         x="389.63766"
-         y="249.58075">5</tspan></text>
+         x="397.63766"
+         y="253.58075">5</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -757,12 +841,12 @@
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text3966"
-       y="298.8674"
-       x="410.38992"
+       y="296.8674"
+       x="414.38992"
        style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
-         y="298.8674"
-         x="410.38992"
+         y="296.8674"
+         x="414.38992"
          sodipodi:role="line"
          id="tspan3968">3</tspan></text>
     <text
@@ -771,67 +855,61 @@
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text4052"
-       y="344.62842"
+       y="370.62842"
        x="83.532433"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4138">river segment (edge, link)</tspan></text>
+         id="tspan4141"
+         x="83.532433"
+         y="370.62842">river</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="83.532433"
-       y="369.40143"
+       y="259.40143"
        id="text4076"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        inkscape:export-xdpi="300"
        inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
-         id="tspan4140">spring, junction (node)</tspan></text>
+         id="tspan4093"
+         x="83.532433"
+         y="259.40143">node</tspan></text>
     <text
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text4082"
-       y="394.17447"
+       y="444.17447"
        x="83.484581"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
          id="tspan4126"
          x="83.484581"
-         y="394.17447">interwatershed boundary</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="84.216026"
-       y="420.30441"
-       id="text4088"
-       sodipodi:linespacing="125%"
-       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
-       inkscape:export-xdpi="300"
-       inkscape:export-ydpi="300"><tspan
-         sodipodi:role="line"
-         id="tspan4142">watershed (polygon)</tspan></text>
+         y="444.17447">interwatershed boundary</tspan></text>
     <text
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text4096"
-       y="445.07745"
+       y="421.07745"
        x="83.484581"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4144">interwatershed (polygon)</tspan></text>
+         id="tspan4145"
+         x="83.484581"
+         y="421.07745">interwatershed</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        x="40.384132"
-       y="469.79056"
+       y="467.79056"
        id="text4100"
        sodipodi:linespacing="125%"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
@@ -840,20 +918,62 @@
          sodipodi:role="line"
          id="tspan4108"
          x="40.384132"
-         y="469.79056">1-9 </tspan></text>
+         y="467.79056">1-9 </tspan></text>
     <text
        inkscape:export-ydpi="300"
        inkscape:export-xdpi="300"
        inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
        sodipodi:linespacing="125%"
        id="text4104"
-       y="468.49353"
+       y="466.49353"
        x="84.216026"
-       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          sodipodi:role="line"
-         id="tspan4136"
-         x="84.216026"
-         y="468.49353">watershed (hillslope) codification after Pfafstetter</tspan></text>
+         id="tspan3099">subwatershed codification after Pfafstetter</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="83.532433"
+       y="280.62842"
+       id="text4117"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan4139"
+         x="83.532433"
+         y="280.62842">link</tspan></text>
+    <text
+       inkscape:export-ydpi="300"
+       inkscape:export-xdpi="300"
+       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
+       sodipodi:linespacing="125%"
+       id="text3101"
+       y="221.3315"
+       x="31.57439"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       xml:space="preserve"><tspan
+         sodipodi:role="line"
+         id="tspan3103"
+         x="31.57439"
+         y="221.3315">Hierarchical </tspan><tspan
+         sodipodi:role="line"
+         id="tspan3105"
+         x="31.57439"
+         y="238.8315">data model</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:14px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr;text-anchor:start;fill:#2e3436;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+       x="31.57439"
+       y="347.91891"
+       id="text3107"
+       sodipodi:linespacing="125%"
+       inkscape:export-filename="/home/robert/prj/2016/2016-hydro-bench/HydroNetBenchKit/fig/tree-model.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
+         sodipodi:role="line"
+         id="tspan3111">Hydrological model</tspan></text>
   </g>
 </svg>
