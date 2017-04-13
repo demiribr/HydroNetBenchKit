@@ -48,11 +48,13 @@ def plot_op(operation):
     f, ax = plt.subplots()
     ax.set(yscale="log")
 
-    ax.set_title('Query time')
+    #ax.set_title('Query time')
     sns.set_style("whitegrid")
     sns.boxplot(x='mo', y='time', data=qpare)
-    ax.set_xlabel("model-operation")
-    ax.set_ylabel("time [s]")
+    ax.set_xlabel("")
+    ax.set_xticklabels(["Adjacency List", "Nested Set", "Path Enumeration",
+                        "Stream Network"])
+    ax.set_ylabel("query time [s]")
 
     #sns.plt.show()
     sns.plt.savefig(RESULT_FOLDER + operation + '.png')
